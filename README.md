@@ -1,3 +1,3 @@
-Aplikacja ma za zadanie przewidywać ceny mieszkań w Trójmieście dużym (Gdańsk, Gdynia i Sopot) oraz małym (Wejherowo, Reda i Rumia), w zależności od miejscowości i metrażu. Brane pod uwagę jest tylko mieszkania z rynku wtórnego i ceny tranzakcyjne.
+Aplikacja ma za zadanie przewidywać ceny mieszkań w Trójmieście dużym (Gdańsk, Gdynia i Sopot) oraz małym (Wejherowo, Reda i Rumia), w zależności od miejscowości i metrażu. Brane pod uwagę jest tylko mieszkania z rynku wtórnego i ceny transakcyjne.
 Model sztucznej inteligencji opierać się będzie na danych od 2020 liczonych kwartalnie do III kwartału 2024
-Aby obliczyć cenę trzeba będzie wybrać w selectboxie miejscowaość, następnie dzielnicę, w text inpucie wpisać metraż, w wybrać liczbę pokoi oraz typ zabudowy
+Aby obliczyć cenę trzeba będzie wybrać w selectboxie miejscowaość, a w text inpucie wpisać metraż, oraz przewidywany rok i kwartał
