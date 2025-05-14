@@ -1,0 +1,1 @@
+Aplikacja ma za zadanie przewidywać ceny mieszkań w Trójmieście dużym (Gdańsk, Gdynia i Sopot) oraz małym (Wejherowo, Reda i Rumia), w zależności od miejscowości, dzielnicy, metrażu, liczby pokoi i typu zabudowy
