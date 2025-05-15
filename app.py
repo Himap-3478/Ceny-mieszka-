@@ -6,11 +6,11 @@ from pycaret.regression import load_model, predict_model
 model = load_model("model_ceny_mieszkan")
 
 # Tytuł aplikacji
-st.title("🏠 Przewidywanie cen mieszkań w Trójmieście")
+st.title("🏠 Przewidywanie cen mieszkań w Trójmiastach")
 
 # Opis
 st.markdown("""
-Aplikacja przewiduje **cenę transakcyjną mieszkania z rynku wtórnego** w wybranych miejscowościach Trójmiasta **od 2025 do 2030 roku**.
+Aplikacja przewiduje **cenę transakcyjną mieszkania z rynku wtórnego** w wybranych miejscowościach Trójmiasta małego i dużego **od 2025 do 2040 roku**.
 """)
 
 # Lista miast
@@ -25,7 +25,7 @@ miasto = st.selectbox("Wybierz miejscowość:", wszystkie_miasta)
 metraz = st.number_input("Podaj metraż mieszkania (m²):", min_value=10, max_value=200, step=1)
 
 # Wybór roku i kwartału
-rok = st.selectbox("Wybierz rok:", list(range(2025, 2031)))
+rok = st.selectbox("Wybierz rok:", list(range(2025, 2040)))
 kwartal = st.selectbox("Wybierz kwartał:", [1, 2, 3, 4])
 
 # Przycisk przewidywania
