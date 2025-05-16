@@ -955,3 +955,13 @@ Alternately, you can install this by running `pip install pycaret[models]`
                  TransformerWrapper(transformer=CleanColumnNames())),
                 ('trained_model', GradientBoostingRegressor(random_state=123))])
 2025-05-16 19:04:17,087:INFO:save_model() successfully completed......................................
+2025-05-16 19:20:27,134:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-16 19:20:27,134:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-16 19:20:27,134:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-16 19:20:27,134:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-16 19:20:27,332:INFO:Initializing load_model()
+2025-05-16 19:20:27,332:INFO:load_model(model_name=model_ceny_mieszkan, platform=None, authentication=None, verbose=True)

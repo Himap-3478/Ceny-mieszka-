@@ -1,5 +1,8 @@
-streamlit
+pycaret[full]==3.0.1
 pandas
-pycaret
 scikit-learn
 numpy
+lightgbm
+xgboost
+catboost
+joblib
